@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOTO ADALIA</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-3">
+        <i class="zmdi zmdi-camera"></i>
+        <span class="brand">FOTO ADALIA</span>
+      </a>
+      <button class="navbar-menu-mobile open is-size-3 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu"></i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="#top" id="inicio" class="navbar-a navbar-link-active">Inicio</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#about" id="acercaDe" class="navbar-a">Acerca de mí</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#section2" id="section" class="navbar-a">Lo que creo</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#gallery" id="photos" class="navbar-a">Mis fotos</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#contacto" id="form" class="navbar-a">Contacto</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#productos" id="product" class="navbar-a">Productos</a>
+        </li>
+
+      </ul>
+  
+  </nav>
+  <!-- Sección del carrusel -->
+
+  <div class="section-body" id="top">
+  <div class="slide-contenedor" >
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider is-size-5-desktop">Increible</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Fotografía</h2>
+           <!--   <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p>-->
+            </div>
+          <img src="img/slider-1.jpg" alt="">
+      </div>
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider">Increible</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Photobook</h2>
+          <!--    <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p> -->
+            </div>
+          <img src="img/photobooks.jpeg" alt="">
+      </div>
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider">Paisaje</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">Paisaje</h2>
+          <!--    <p class="description-slider is-size-7-mobile"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                vero quos fugiat, voluptatem vel natus explicabo aperiam quas omnis tenetur. </p>-->
+            </div>
+          <img src="img/slider-3.jpg" alt="">
+      </div>
+      <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      <div class="dots">
+          <span class="dot active" onclick="posicionSlide(1)"></span>
+          <span class="dot" onclick="posicionSlide(2)"></span>
+          <span class="dot" onclick="posicionSlide(3)"></span>
+      </div>
+  </div>
+   <!-- About me -->
+  <div class="container" id="about">
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/adalia.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-half section-about-me">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">Acerca de mí</h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">Profesional en fotografía</h5>
+          <div id="perfil">
+            <img src="img/logo.jpg" alt="">
+          </div>
+        <p class="text is-size-7-mobile">
+           Fotografo profecional con mucha capacidad con el manejo de camaras profesionales, manejo de filtros y lentes  con la finalidad de obtenerlos efectos deseados.
+           <br>
+           <h5>Mis habilidades</h5>
+           <p class="text is-size-7-mobile">
+              <ul class="text is-size-7-mobile">
+                <li>Comunicarme claramente, de manera escrita y oral, para dar instrucciones.</li>
+                <li>Ser un buen oyente para entender y acatar lo solicitado por el cliente.</li>
+                <li>Tener vocación de servicio y liderazgo.</li>
+                <li>Tener la capacidad de trabajar en conjunto con un asistente</li>
+                <li>Estar abierto a nuevas ideas.</li>
+                
+              </ul>
+           </p>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="section2" class="hero my-hero" style="--banner: url(../img/hero-img.jpg); --bg-atachment: fixed;">
+    <div class="container-hero">
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+              Lo que creo
+            </h1>
+            <h5 class="subtitle is-size-5">
+              Para la vida digital
+            </h5>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class="zmdi zmdi-camera zmdi-hc-2x"></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">La fotografia</h4>
+              <p class="has-text-centered is-size-7-mobile">La fotografía es considerada una de las actividades artísticas más importantes del ser humano.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class="zmdi zmdi-camera-monochrome-photos zmdi-hc-2x"></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">Films increíbles</h4>
+              <p class="has-text-centered is-size-7-mobile">hace la referencia segura, hacia una forma más profesional y compleja de narración..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class="zmdi zmdi-videocam zmdi-hc-2x"></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">Capturar objetos</h4>
+              <p class="has-text-centered is-size-7-mobile">La acción de capturar objetos o momentos en un tiempo determinado, desde los ojos de quien lo está viendo es todo un arte..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- productos -->
+ <div class="boxproducto" id="productos">
+        <div id="subtitle2"><h2> SELECCIONA EL PRODUCTO A COTIZAR</h2></div>
+        
+        <div class="produc"><a href="https://api.whatsapp.com/send?phone=+57 3144261710"target="_blank" id="whatsapp">
+          <h5>Foto-retablos</h5></a>
+        </div>
+        <div class="produc"><a href="https://api.whatsapp.com/send?phone=+57 3144261710"target="_blank" id="whatsapp">
+          <h5>PhotoBooks</h5></a>
+        </div>
+        <div class="produc"><a href="https://api.whatsapp.com/send?phone=+57 3144261710"target="_blank">
+          <h5>Restauracion de fotos</h5>
+        </div></a>
+        <div class="produc"><a href="https://api.whatsapp.com/send?phone=+57 3144261710"target="_blank">
+          <h5>Foto estudio</h5></a>
+        </div>
+ </div>
+  <!-- Galería -->
+  <div class="container" id="gallery">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">Mis fotos</h1>
+        <h5 class="subtitle is-size-6">Para la vida digital</h5>
+      </div>
+      <div class="column">
+        <div class="gallery-container" id="gallery-container">
+          <div class="gallery-item">
+
+            <figure class="image">
+              <img class="gallery-img" src="img/mis-fotos/galeria2.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img class="gallery-img" src="img/mis-fotos/galeria15.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+
+              <img class="gallery-img" src="img/mis-fotos/galeria11.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria10.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria1.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria19.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria16.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria20.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+            <!---->  <img  class="gallery-img" src="img/mis-fotos/galeria4.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria12.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria18.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/mis-fotos/galeria13.jpg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contacto -->
+  <div class="container" id="contacto">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">Contactame</h1>
+        <h5 class="subtitle is-size-6">Enviame un mensaje</h5>
+      </div>
+      <div class="column">
+        <form action="#">
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <div class="field">
+                <label class="label">Nombre Completo</label>
+                <div class="control">
+                  <input class="is-radiusless is-shadowless input is-medium" type="text" placeholder="Nombre completo">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <labe class="label">Número de teléfono</label>
+                    <input class="is-radiusless is-shadowless input is-medium" type="text"
+                      placeholder="Número de telefono">
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <div class="control">
+                  <label class="label">Correo Electrónico</label>
+                  <input class="is-radiusless is-shadowless input is-medium" type="text"
+                    placeholder="Correo Electrónico">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="is-radiusless is-shadowless button is-medium is-fullwidth" type="button">
+                    Enviar
+                  </button>
+                  <div id="social">
+                  <a href="https://api.whatsapp.com/send?phone=+57 3144261710"target="_blank" id="whatsapp"><img src="img/whatsapp.png" alt="" width="60px"></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->  <!--redes sociales-->
+  <footer class="my-footer">
+    <div class="hero my-hero" style="--banner: url(../img/footer-banner.jpg); --bg-atachment: none;">
+      <div class="container-hero">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <span class="has-text-white">
+              <i class="is-size-3-mobile is-size-1 zmdi zmdi-camera"></i>
+            </span>
+          </div>
+          <div class="column is-full">
+            <ul class="my-footer-ul">
+              <li  class="my-footer-item">
+                <a href="https://www.facebook.com/adalia.villarmachado"target="_blank" class="my-footer-link facebook">
+                  <i class="zmdi zmdi-facebook"></i>
+                </a>
+              </li> <!-- 
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link instagram">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link pinterest">
+                  <i class="zmdi zmdi-pinterest"></i>
+                </a>
+              </li>
+            <li class="my-footer-item">
+                <a href="#" class="my-footer-link twitter">
+                  <i class="zmdi zmdi-twitter"></i>
+                </a>
+              </li>-->
+            </ul>
+          </div>
+          <div class="column has-text-centered is-size-7-mobile  is-full">
+            <p class="footer-p has-text-white">© 2019 Photografy. Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.4/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  
+</body>
+
+</html>
