@@ -798,3 +798,17 @@ figcaption {
 .produc a:hover{
   color: orangered;
 }
+
+/* facebook*/
+#social-facebook img{
+  width: 60px;
+}
+.social1{
+  display:inline-flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 40%;
+}
+.logo{
+  width: 50px;
+}
