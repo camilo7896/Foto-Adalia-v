@@ -26,7 +26,7 @@ const openLightbox = (gallery, i, larges) => {
                 <img src="${larges[i]}" class="lightbox-image">
                 <figcaption>
                 <nav class="navigation">
-                <a href="#" class="lightbox-navigation prev"><i class="zmdi zmdi-chevron-left"></i></i></a>
+                <a href="#" class="lightbox-navigation prev"><i class="zmdi zmdi-chevron-left"></i></a>
                 <a href="#" class="lightbox-navigation next"><i class="zmdi zmdi-chevron-right"></i></a>
                 </nav>
                 </figcaption>
