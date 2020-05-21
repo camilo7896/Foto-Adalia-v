@@ -26,10 +26,7 @@ const openLightbox = (gallery, i, larges) => {
                 <img src="${larges[i]}" class="lightbox-image">
                 <figcaption>
 <div class="close-modal"><i> <img src="exit.png" alt="" class="logo"></i></div>
-                 <nav class="navigation">
-                <a href="#" class="lightbox-navigation prev"><i><img src="flechas.png" alt="" class="logo"></i></a>
-                <a href="#" class="lightbox-navigation next"><i><img src="flechas.png" alt="" class="logo"></i></a>
-                </nav>
+                
                 </figcaption>
             </figure>
         </div>
