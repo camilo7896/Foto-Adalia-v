@@ -23,7 +23,7 @@ const openLightbox = (gallery, i, larges) => {
         <div class="lightbox-overlay">
 
         <div class="close-modal">
-<i class="zmdi zmdi-close"><img src="exit.png" alt="" class="logo"></i>
+<i class="salida"><img src="exit.png" alt="" class="logo"></i>
 </div>
             <figure class="lightbox-container">
 
@@ -31,8 +31,8 @@ const openLightbox = (gallery, i, larges) => {
 
                 <figcaption>
                 <nav class="navigation">
-                <a href="#" class="lightbox-navigation prev"><i class="zmdi zmdi-chevron-left"><img src="flechas.png" alt="" class="logo"></i></a>
-                <a href="#" class="lightbox-navigation next"><i class="zmdi zmdi-chevron-right"><img src="flechas.png" alt="" class="logo"></i></a>
+                <a href="#" class="lightbox-navigation prev"><i class="left"><img src="flechas.png" alt="" class="logo"></i></a>
+                <a href="#" class="lightbox-navigation next"><i class="right"><img src="flechas.png" alt="" class="logo"></i></a>
                 </nav>
                 </figcaption>
             
