@@ -21,7 +21,7 @@ const openLightbox = (gallery, i, larges) => {
     let lightboxElement = document.createElement('div')
     lightboxElement.innerHTML = `
         <div class="lightbox-overlay">
-        <div class="close-modal"><i class="zmdi zmdi-close"></i></div>
+        <div class="close-modal"><i><img src="exit.png" alt="" class="logo"></i></div>
             <figure class="lightbox-container">
                 <img src="${larges[i]}" class="lightbox-image">
                 <figcaption>
