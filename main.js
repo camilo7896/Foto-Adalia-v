@@ -21,22 +21,16 @@ const openLightbox = (gallery, i, larges) => {
     let lightboxElement = document.createElement('div')
     lightboxElement.innerHTML = `
         <div class="lightbox-overlay">
-
-        <div class="close-modal">
-<i class="salida"><img src="exit.png" alt="" class="logo"></i>
-</div>
+        <div class="close-modal"><i class="zmdi zmdi-close"></i></div>
             <figure class="lightbox-container">
-
                 <img src="${larges[i]}" class="lightbox-image">
-
                 <figcaption>
                 <nav class="navigation">
-                <a href="#" class="lightbox-navigation prev"><i class="left"><img src="flechas.png" alt="" class="logo"></i></a>
-                <a href="#" class="lightbox-navigation next"><i class="right"><img src="flechas.png" alt="" class="logo"></i></a>
+                <a href="#" class="lightbox-navigation prev"><i class="zmdi zmdi-chevron-left"></i></i></a>
+                <a href="#" class="lightbox-navigation next"><i class="zmdi zmdi-chevron-right"></i></a>
                 </nav>
                 </figcaption>
-            
-</figure>
+            </figure>
         </div>
         `
   
