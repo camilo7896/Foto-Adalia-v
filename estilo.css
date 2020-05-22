@@ -812,3 +812,15 @@ figcaption {
 .logo{
   width: 50px;
 }
+.logo1{
+  background-size: 20px;
+}
+.title2{
+  text-align: center;
+}
+#contactame{
+  color: white;
+}
+.label{
+  color: white;
+}
