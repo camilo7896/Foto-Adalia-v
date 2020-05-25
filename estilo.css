@@ -803,6 +803,11 @@ figcaption {
 #social-facebook img{
   width: 60px;
 }
+#social img:hover{
+animation-name: whatsapp;
+   animation-duration: 1s;
+   animation-interation-count: infinite;
+}
 .social1{
   display:inline-flex;
   flex-direction: row;
