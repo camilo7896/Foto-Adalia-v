@@ -808,12 +808,21 @@ animation-name: whatsapp;
    animation-duration: 1s;
    animation-interation-count: infinite;
 }
+ @keyframes whatsapp {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+  }
 .social1{
   display:inline-flex;
   flex-direction: row;
   padding: 20px;
   padding-left: 40%;
 }
+
 .logo{
   width: 50px;
 }
