@@ -1,4 +1,4 @@
 # Foto-Adalia-v
 fotografias
 
-este es una pagina de fotografias
+Esta es una plantilla tomada de internet y modificada para fotografia
